@@ -1,0 +1,19 @@
+#include <iostream>
+#include <Windows.h>
+#include <iomanip>
+#include <math.h>
+using namespace std;
+int main()
+{
+	double Minx = 2, Maxx = 4, h = 0.2, x, y;
+	x = Minx;
+	cout << "Initial X=" << Minx << endl;
+	cout << "Last X=" << Maxx << endl;
+	cout << "Step h=" << h << endl;
+	while (x <= Maxx + h / 100000)
+	{
+		y = (sin(x) * sin(x)) + (2 * cos(x)) + 3;
+		cout << "X=" << setw(10) << left << x << "Y=" << right << y << endl;
+		x += h;
+	}
+}
