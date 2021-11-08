@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-	double Minx = 2, Maxx = 4, h = 0.2, x, y;
+	double Minx = 5, Maxx = 8, h = 0.4, x, y;
 	x = Minx;
 	cout << "Initial X=" << Minx << endl;
 	cout << "Last X=" << Maxx << endl;
@@ -16,4 +16,4 @@ int main()
 		cout << "X=" << setw(10) << left << x << "Y=" << right << y << endl;
 		x += h;
 	}
-}
+} //числа змінено
