@@ -16,4 +16,6 @@ int main()
 		cout << "X=" << setw(10) << left << x << "Y=" << right << y << endl;
 		x += h;
 	}
-} //числа змінено
+} DGFDGGGGGGGGGGGGGGGGGG
+BBBBBBBBBBBBBBBBBBBBBBB
+NNNNNNNNNNNNNNNNNNNNNN
